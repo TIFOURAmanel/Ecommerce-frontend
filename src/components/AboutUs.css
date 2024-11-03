@@ -1,0 +1,50 @@
+
+
+.about-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info button{
+    width: 145px;
+    height: 38px;
+    border: none;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color:  rgba(157, 75, 25, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.center{
+    text-align: center;
+    font-family: Italianno;
+font-size: 68.47px;
+font-weight: 400;
+line-height: 85.59px;
+
+
+}
+
+.info h2{
+    font-family: Montserrat;
+font-size: 28.71px;
+font-weight: 700;
+line-height: 34.99px;
+text-align: left;
+
+}
+
+.prob-solv{
+    height: 150px;
+}

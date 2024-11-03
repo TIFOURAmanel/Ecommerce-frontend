@@ -1,0 +1,62 @@
+
+.img-big{
+    display: flex;
+    justify-content: center;
+}
+
+.sections{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.section-css{
+    display: flex;
+    justify-content: space-around ;
+    
+}
+
+.welcom{
+
+    font-family: Italianno;
+font-size: 68.47px;
+font-weight: 400;
+line-height: 85.59px;
+text-align: center;
+
+}
+
+#catalogID{
+    font-family: Italianno;
+font-size: 68.47px;
+font-weight: 400;
+line-height: 85.59px;
+text-align: center;
+
+}
+
+.cake-types{
+    display: flex;
+    justify-content: center;
+}
+
+.cake-types a {
+    text-decoration: none;
+
+}
+
+.problem{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-carts{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.espace{
+    height: 50px;
+}
