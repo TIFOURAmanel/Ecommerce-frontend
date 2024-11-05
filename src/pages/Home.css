@@ -7,7 +7,7 @@
 .sections{
    display: flex;
    flex-direction: column;
-   
+   width: 100%;
 }
 
 .section-css{
@@ -38,6 +38,7 @@ text-align: center;
 .cake-types{
     display: flex;
     justify-content: center;
+
 }
 
 .cake-types a {
@@ -45,10 +46,7 @@ text-align: center;
 
 }
 
-.problem{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 .section-carts{
@@ -60,3 +58,4 @@ text-align: center;
 .espace{
     height: 50px;
 }
+

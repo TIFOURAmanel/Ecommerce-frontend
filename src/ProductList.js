@@ -12,6 +12,7 @@ const ProductList = () =>{
       {image: {fruitsImg} , title: 'fhkjk', paragraph:'fjfk' , price:'100 DA' },
       {image: {fruitsImg} , title: 'fhkjk', paragraph:'fjfk' , price:'100 DA' }
     ]
+    console.log('msgggggggggggggg')
     return(
      {listProd}
     )
