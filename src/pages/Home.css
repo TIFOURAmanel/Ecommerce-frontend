@@ -1,8 +1,4 @@
 
-.img-big{
-    display: flex;
-    justify-content: center;
-}
 
 .sections{
    display: flex;
@@ -14,36 +10,6 @@
     display: flex;
     justify-content: space-around ;
     
-}
-
-.welcom{
-
-    font-family: Italianno;
-font-size: 68.47px;
-font-weight: 400;
-line-height: 85.59px;
-text-align: center;
-
-}
-
-#catalogID{
-    font-family: Italianno;
-font-size: 68.47px;
-font-weight: 400;
-line-height: 85.59px;
-text-align: center;
-
-}
-
-.cake-types{
-    display: flex;
-    justify-content: center;
-
-}
-
-.cake-types a {
-    text-decoration: none;
-
 }
 
 
@@ -59,3 +25,14 @@ text-align: center;
     height: 50px;
 }
 
+.color-button{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border: none;
+    background-color: white;
+}
+
+.color-button :hover{
+    cursor: pointer;
+}

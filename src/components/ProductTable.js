@@ -2,9 +2,10 @@
 const ProductTable = (array) =>{
     return(
         <div>
+            <h1>Shopping card items</h1>
             <table>
                 <tr>
-                    <th>Produits</th>
+                    <th>Product</th>
                     <th>Catgories</th>
                     <th>Amount</th>
                     <th>Price</th>

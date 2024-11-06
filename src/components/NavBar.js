@@ -14,7 +14,7 @@ const NavBar = () => {
             <a className='nav-links' href=''>Home</a>
             <a className='nav-links' href='#catalogID'>Catalog</a>
             <a className='nav-links' href='#About-us'>About Us</a>
-            <a className='nav-links' href=''> <img src={shocartImg}/> Basket </a>
+            <a className='nav-links' href='/basket'> <img src={shocartImg}/> Basket </a>
          </nav>
 
         </div>
