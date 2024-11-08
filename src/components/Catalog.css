@@ -2,7 +2,7 @@
 
 
 #catalogID{
-    font-family: Italianno;
+font-family: Italianno;
 font-size: 68.47px;
 font-weight: 400;
 line-height: 85.59px;
@@ -14,4 +14,10 @@ text-align: center;
     display: flex;
     justify-content: center;
 
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    width : 100vw ;
 }

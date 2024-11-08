@@ -65,26 +65,26 @@ const Catalog = () =>{
 
           <div className='sections'>
         
-        { trad && ProductLists.traditional.map((product) => (
-            <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
-            ) ) 
+              { trad && ProductLists.traditional.map((product) => (
+               <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
+                 ) ) 
         
-        }
-        { modern && ProductLists.modern.map((product) => (
-            <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
-            ) ) 
+              }
+              { modern && ProductLists.modern.map((product) => (
+                <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
+                ) ) 
         
-        }
+              }
 
-        { cacke && ProductLists.cacke.map((product) => (
-            <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
-            ) ) 
+              { cacke && ProductLists.cacke.map((product) => (
+               <Cart key={product.id} image = {product.image}  title = {product.title}  paragraph = {product.paragraph} price = {product.price}/> 
+               ) ) 
         
-        }
+              }
 
           
 
-        </div>
+          </div>
 
 
 

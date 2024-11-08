@@ -14,8 +14,8 @@ const AddToCard = (event) =>{
 
 }
     return(
-        <div className='cart-container'>
-          
+         
+         <div className='cart-container'>
             <img src={props.image} width= "272.39px"  height ="220px"/>
             <h2>{props.title}</h2>
             <p>{props.paragraph}</p>
@@ -26,8 +26,8 @@ const AddToCard = (event) =>{
                     <img src={ShopImg}/>
                 </div>
             </div>
-
-        </div>
+          </div>
+        
     )
 
 }

@@ -1,0 +1,28 @@
+
+
+.Summary_container{
+    width: 380px;
+    height: 478px;
+}
+
+.check_button{
+width: 315px;
+height:43px;
+top: 412px;
+left: 27px;
+padding: 10px 0px 0px 0px;
+gap: 10px;
+border-radius: 14px ;
+background: rgba(157, 75, 25, 1);
+border: none;
+color: white;
+font-family: Montserrat;
+font-size: 14.59px;
+font-weight: 800;
+line-height: 17.78px;
+}
+
+.add_button{
+    background-color: white;
+    border: none;
+}
