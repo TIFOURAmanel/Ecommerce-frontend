@@ -1,5 +1,9 @@
 
 const ProductTable = (array) =>{
+
+   const basket = localStorage.getItem('id')
+    const panier = JSON.parse(basket)
+
     return(
         <div>
             <h1>Shopping card items</h1>
@@ -12,13 +16,13 @@ const ProductTable = (array) =>{
                 </tr>
                 <tr>
                     <td>  
-                        <img>{array[0]}</img> 
-                        <h3>{array[1]} </h3>
-                        <p>{array[2]}</p>
+                        <img src={panier.image}></img> 
+                        <h3>{panier.title} </h3>
+                        <p>{panier.paragraph}</p>
                         <a>Go to the product</a>
                     </td>
                     <td>Traditional</td>
-                    <td>{array[3]}</td>
+                    <td>{panier.price}</td>
                     <td>1200</td>
                 </tr>
             </table>
