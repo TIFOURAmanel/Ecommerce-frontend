@@ -1,8 +1,9 @@
+import TableElements from "./TableElements"
 
 const ProductTable = (array) =>{
 
    const basket = localStorage.getItem('id')
-    const panier = JSON.parse(basket)
+   const panier = JSON.parse(basket) 
 
     return(
         <div>
@@ -15,12 +16,11 @@ const ProductTable = (array) =>{
                     <th>Price</th>
                 </tr>
                 <tr>
-                    <td>  
-                        <img src={panier.image}></img> 
-                        <h3>{panier.title} </h3>
-                        <p>{panier.paragraph}</p>
+                   
+                        {panier.map((produit) => (<TableElements  image = {produit.image}  title = {produit.title}  paragraph = {produit.paragraph} price = {produit.price}/> ))}
+                        
                         <a>Go to the product</a>
-                    </td>
+                   
                     <td>Traditional</td>
                     <td>{panier.price}</td>
                     <td>1200</td>

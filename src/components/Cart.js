@@ -5,17 +5,21 @@ import ProductTable from './ProductTable'
 
 const Cart = (props) =>{
     
+const array = []
 const AddToCard = () =>{
     console.log('clicked!!!!!!!!!')
-    const product = {
+     
+        const product = {
         id : props.id ,
         image: props.image,
         title: props.title,
         paragraph: props.paragraph,
         price: props.price
     };
+
+    array.push(product)
     
-    localStorage.setItem('id' , JSON.stringify(product))
+    localStorage.setItem('id' , JSON.stringify(array))
  
 
 }

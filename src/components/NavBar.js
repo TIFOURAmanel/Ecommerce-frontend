@@ -11,7 +11,7 @@ const NavBar = () => {
          <nav className='nav-bar'>
             <img src={NameImg}/>
             <input className='search' type='search' placeholder='      Search...' />
-            <a className='nav-links' href=''>Home</a>
+            <a className='nav-links' href='/'>Home</a>
             <a className='nav-links' href='#catalogID'>Catalog</a>
             <a className='nav-links' href='#About-us'>About Us</a>
             <a className='nav-links' href='/basket'> <img src={shocartImg}/> Basket </a>
